@@ -11,7 +11,7 @@ char P[50];
 int age;
 
  
-printf("Entrez le nom du fichier à créer: ");
+printf("Entrez le nom du fichier à créer   : ");
 scanf("%s", NOM_FICHIER);
 
 P_FILE = fopen(NOM_FICHIER, "a");/* on créer le fichier*/ printf("Entrez identty: ");
