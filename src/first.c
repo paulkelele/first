@@ -16,7 +16,7 @@ int a=10;
 int b=20;
 int count=10;
  
-/*printf("Entrez le nom du fichier à créer pour enregistrement: ");
+/*printf("Entrez le nom du fichier à créer pour enregistrement :: ");
 scanf("%s", NOM_FICHIER);*/
 
 P_FILE = fopen(argv[1], "a");/* on créer le fichier*/ printf("Entrez identty: ");
