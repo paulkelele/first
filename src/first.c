@@ -2,6 +2,7 @@
 #include <string.h>
 #include "lib/headers/hello_fn.h"
 
+/*Declaration des signatures de méthode*/
 void swip(int *a, int *b);
 
 /* argc: nombres arguments. argv tableau des arguments. argv[0] nom du programme argv[1] 1er argument, etc...*/
