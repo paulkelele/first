@@ -35,7 +35,7 @@ int main(int argc, char ** argv){
 	scanf("%s", NOM_FICHIER);*/
 
 	P_FILE = fopen(argv[1], "a");/* on créer le fichier*/ printf("Entrez identty: ");
-	 scanf("%s %s %i", NOM_PERSONNE, P, &age);
+        scanf("%s %s %i", NOM_PERSONNE, P, &age);
 
 	for(int i=0;i<count;i++){
 	 fprintf(P_FILE,"%s,%s,%i\n",NOM_PERSONNE,P,age);
