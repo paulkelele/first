@@ -8,6 +8,8 @@
 
 /*Declaration des signatures de méthode*/
 void swip(int *a, int *b);
+void initialize_personne(Personne *p);
+
 
 /* argc: nombres arguments. argv tableau des arguments. argv[0] nom du programme argv[1] 1er argument, etc...*/
 int main(int argc, char ** argv){
@@ -18,8 +20,8 @@ int main(int argc, char ** argv){
 	printf("%d est x\n",z);
 
 	Personne p;
-	p.age = 25;
-	strcpy(p.nom,"Jean");
+	initialize_personne(&p);
+
 	printf("age: %d et le nom %s\n",p.age,p.nom);
 
 	FILE * P_FILE; /* pointer sur un fichier*/
@@ -54,4 +56,10 @@ void swip(int *a, int *b){
 	*a = *a + *b;
 	*b = *a - *b;
 	*a = *a -*b;
+}
+
+
+void initialize_personne(Personne *p){
+	p->age=48;
+	strcpy(p->nom,"DUPON");
 }
