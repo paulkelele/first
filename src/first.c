@@ -11,7 +11,7 @@ void swip(int *a, int *b);
 void initialize_personne(Personne *p);
 
 
-/* argc: nombres arguments..... argv tableau des arguments. argv[0] nom du programme argv[1] 1er argument, etc...*/
+/* argc: nombres arguments.. argv tableau des arguments. argv[0] nom du programme argv[1] 1er argument, etc...*/
 int main(int argc, char ** argv){
 
 	Coordonnees c;
