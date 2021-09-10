@@ -61,5 +61,5 @@ void swip(int *a, int *b){
 
 void initialize_personne(Personne *p){
 	p->age=48;
-	strcpy(p->nom,"DUPON");
+	strcpy(p->nom,"DUPOND");
 }
